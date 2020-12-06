@@ -132,7 +132,7 @@ int fact(int in1)
     if (in1 < 0)
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
-        for (i = 1; i <= in1; ++i) {
+        for (i = 1; i<=in1; ++i) {
             fact *= i;
         }
         return fact;
