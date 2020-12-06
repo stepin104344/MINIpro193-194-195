@@ -277,7 +277,7 @@ void length()
             result=inches_to_miles(input1);
             printf("%lf",result);
             break;
-    }
+        }
 
     return 0;
 }
